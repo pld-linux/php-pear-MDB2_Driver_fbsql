@@ -15,11 +15,11 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	ea6439e7740b79060e14e16b178b5333
 URL:		http://pear.php.net/package/MDB2_Driver_fbsql/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
-Requires:	php-pear
 Requires:	php-common >= 3:4.3.0
-Requires:	php-pear-PEAR >= 1:1.0b1
-Requires:	php-pear-MDB2 >= 2.0.0-0.beta6
 Requires:	php-fbsql
+Requires:	php-pear
+Requires:	php-pear-MDB2 >= 2.0.0-0.beta6
+Requires:	php-pear-PEAR >= 1:1.0b1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -29,7 +29,7 @@ This is the Frontbase SQL MDB2 driver.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Sterownik Fronbase SQL dla MDB2.
+Sterownik Frontbase SQL dla MDB2.
 
 Ta klasa ma w PEAR status: %{_status}.
 
