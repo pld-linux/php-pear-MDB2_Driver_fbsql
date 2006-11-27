@@ -17,8 +17,8 @@ URL:		http://pear.php.net/package/MDB2_Driver_fbsql/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
+Requires:	php(fbsql)
 Requires:	php-common >= 3:4.3.0
-Requires:	php-fbsql
 Requires:	php-pear
 Requires:	php-pear-MDB2 >= 2.0.0-0.beta6
 Requires:	php-pear-PEAR-core >= 1:1.0b1
