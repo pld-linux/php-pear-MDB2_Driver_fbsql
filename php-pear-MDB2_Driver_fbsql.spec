@@ -5,7 +5,7 @@
 %define		_pearname	MDB2_Driver_fbsql
 
 Summary:	%{_pearname} - fbsql MDB2 driver
-Summary(pl.UTF-8):   %{_pearname} - sterownik fbsql dla MDB2
+Summary(pl.UTF-8):	%{_pearname} - sterownik fbsql dla MDB2
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
 Release:	1
