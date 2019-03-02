@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - fbsql MDB2 driver
 Summary(pl.UTF-8):	%{_pearname} - sterownik fbsql dla MDB2
 Name:		php-pear-%{_pearname}
-Version:	0.2.0
+Version:	0.3.0
 Release:	1
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	f461bd0f16f7083050705045d0dc4369
+# Source0-md5:	55f784598bbfe239db94d9a06b0e5d0d
 URL:		http://pear.php.net/package/MDB2_Driver_fbsql/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -56,3 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %{php_pear_dir}/MDB2/Driver/Native/fbsql.php
 %{php_pear_dir}/MDB2/Driver/Reverse/fbsql.php
 %{php_pear_dir}/MDB2/Driver/fbsql.php
+%{php_pear_dir}/data/MDB2_Driver_fbsql
